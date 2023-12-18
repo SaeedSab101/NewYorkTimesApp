@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="get">Get Book Review</string>
+    <string name="nobooks">No books found</string>
+    <string name="apptitle">New York Times Recommendations</string>
+    <string name="gotorecommendations">Look for Books</string>
+    <string name="about">About The App and Our Developers</string>
+    <string name="viewsaved">View Saved Book</string>
+    <string name="author">Author</string>
+    <string name="description">Synopsis</string>
+    <string name="purchase">Purchase Here</string>
+    <string name="backtolist">Back To List</string>
+    <string name="backtohome">Back To Home Page</string>
+    <string name="savetolist">Save To List</string>
+    <string name="deletefromlist">Remove From Saved</string>
+    <string name="logoutButton">Logout</string>
+    <string name="project">A Project By:</string>
+    <string name="by">Saeed Alsabawi and Ivan Kepseu</string>
+    <string name="aboutwhat">What Does The App Do?</string>
+    <string name="whatitdoes">This application helps look for books based on the New York Times API, you will be able to get the top
+    rankings for books based on their category or by books published on a certain date. You will also be able to store books you would
+    like to read to your own list, which will also be stored in Firebase.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_pseudo">User Name</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_register">Register new user</string>
+    <string name="action_backtologin">Already Have An Account? Log In Here</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_user">Welcome new user</string>
+    <string name="problem">Problem creating account</string>
+    <string name="logout">Logout</string>
+    <string name="logged_out">You are now logged out</string>
+    <string name="no_account">Don\'t have an account? Register </string>
+    <string name="here">Here</string>
+    <string name="add">Add to Cloud</string>
+    <string name="read">Read from Cloud</string>
+    <string name="saved">Saved Books</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+</resources>

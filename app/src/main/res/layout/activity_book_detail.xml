@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/darker_gray"
+    android:background="@color/white">
+
+  <TextView
+      android:id="@+id/textViewRanking"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/imageViewDetails"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/textViewTitleDetails"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textViewRanking"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"
+      android:gravity="center|center_horizontal"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/textViewAuthorDetails"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textViewTitleDetails"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="8dp"
+      android:gravity="center|center_horizontal"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/textViewDescriptionDetails"
+      android:layout_width="360dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textViewAuthorDetails"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="8dp"
+      android:gravity="center|center_horizontal"
+      android:textColor="#FFFFFF"
+      android:textSize="16sp" />
+
+  <TextView
+      android:id="@+id/textViewAmazonUrlDetails"
+      android:layout_width="360dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textViewDescriptionDetails"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp"
+      android:gravity="center"
+      android:textColor="#FFFFFF"
+      android:textSize="14sp" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_height="267dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="41dp"
+      android:layout_marginTop="55dp"
+      android:layout_marginEnd="45dp"
+      app:srcCompat="@drawable/img" />
+
+  <ImageView
+      android:id="@+id/imageViewDetails"
+      android:layout_width="196dp"
+      android:layout_height="257dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="107dp"
+      android:layout_marginTop="60dp"
+      android:layout_marginEnd="107dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/ic_launcher_background" />
+
+  <Button
+      android:id="@+id/saveToListButton"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_below="@+id/textViewAmazonUrlDetails"
+      android:layout_marginTop="40dp"
+      android:onClick="onSaveToListButtonClick"
+      android:text="@string/savetolist" />
+
+  <Button
+      android:id="@+id/backToListButton"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_below="@+id/saveToListButton"
+
+      android:layout_marginTop="11dp"
+
+      android:layout_marginBottom="44dp"
+      android:onClick="onBackButtonClick"
+      android:text="@string/backtolist" />
+
+  <Button
+      android:id="@+id/deleteFromSavedBooksButton"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_below="@+id/backToListButton"
+      android:layout_marginTop="-33dp"
+      android:onClick="onDeleteFromSavedBooksClick"
+      android:text="@string/deletefromlist" />
+
+  <ImageView
+      android:id="@+id/imageView11"
+      android:layout_width="match_parent"
+      android:layout_height="47dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="0dp"
+      android:layout_marginEnd="0dp"
+      app:srcCompat="@drawable/nytlogo" />
+
+
+</RelativeLayout>
